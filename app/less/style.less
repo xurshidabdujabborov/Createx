@@ -1,0 +1,85 @@
+@import "./params/mix";
+@import "./header.less";
+@import "./main.less";
+@import "./felix.less";
+@import "./students.less";
+@import "./events.less";
+@import "./work.less";
+@import "./courses.less";
+@import "./form.less";
+@import "./footer.less";
+
+body {
+  font-family: "Lato", "san-serif";
+}
+.activeBars {
+  display: none;
+  .md(display , block);
+}
+
+.activeMenuBars {
+  display: block;
+  .md(display , none);
+}
+.errorMsg {
+  color: rgb(255, 0, 0);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 10px;
+  display: none;
+}
+h1.title{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-top: 90px;
+  text-align: center;
+  color: black;
+  .sm-block({
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 40px;
+  })
+}
+p.text{
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 50px;
+  text-align: center;
+  color: black;
+  .sm-block({
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 25px;
+  })
+}
+.kent button{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 14px 24px;
+  background: #190083;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  &:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+    transition: 1s;
+  }
+}
+.activeCourses {
+  display: none;
+}
+li.uno{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  color: black;
+  text-align: left;
+}
+

@@ -1,0 +1,1384 @@
+header {
+  width: 100%;
+}
+
+header nav {
+  background-color: #0F1035;
+}
+
+header nav .mul {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+header nav .mul ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header nav .mul ul li {
+  margin: 0px 20px;
+}
+
+header nav .mul ul li a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  color: white;
+  text-align: left;
+}
+
+header nav .nan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+  -ms-flex-pack: right;
+  justify-content: right;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header nav .nan a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  color: white;
+  text-align: left;
+}
+
+header nav .nan img {
+  background-color: white;
+}
+
+header nav .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+  -ms-flex-pack: right;
+  justify-content: right;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header nav .img a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  color: white;
+  margin-right: 18px;
+}
+
+header .bars {
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+header .bars:hover {
+  border-color: #086cf9;
+  color: #086cf9;
+}
+
+header .bars .fa {
+  font-size: 16px;
+}
+
+header .center {
+  width: 100%;
+  background-color: white;
+  padding: 25px 0px;
+}
+
+header .center ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+  -ms-flex-pack: right;
+  justify-content: right;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header .center ul li {
+  margin: 0px 30px;
+}
+
+header .center ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: black;
+}
+
+header .bootom {
+  width: 100%;
+  background: #D3F1F3;
+  padding: 21px;
+}
+
+header .bootom .book {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header .bootom .book h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: black;
+}
+
+header .bootom .book a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+}
+
+header .bootom .book a .fa {
+  margin-left: 6px;
+}
+
+header .headerTitle {
+  width: 100%;
+  background-image: url("../img/Rectangle.png");
+  padding-bottom: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .headerTitle h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+
+header .headerTitle h3 {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 40px;
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+header .headerTitle .var {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 450px;
+}
+
+header .headerTitle .var input {
+  width: 350px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+  padding: 13px 0px;
+  padding-left: 22px;
+  border: none;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 3px;
+}
+
+header .headerTitle .var input:focus {
+  outline: none;
+}
+
+header .headerTitle .var input:hover {
+  cursor: pointer;
+}
+
+header .headerTitle .var button {
+  padding: 15px 26px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  background: #190083;
+  color: white;
+  border-radius: 4px;
+  margin-left: 32px;
+  border: none;
+}
+
+header .headerTitle .var button:hover {
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  background: #D3F1F3;
+  color: black;
+}
+
+header .headerTitle .headerLogin {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: cornflowerblue;
+  z-index: 11111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: none;
+}
+
+header .headerTitle .headerLogin h3 {
+  font-size: 45px;
+  font-weight: 700;
+  color: black;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+header .headerTitle .headerLogin form {
+  text-align: center;
+}
+
+header .headerTitle .headerLogin form input {
+  width: 300px;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+header .headerTitle .headerLogin form input:focus {
+  outline: none;
+}
+
+header .headerTitle .headerLogin form input::-webkit-input-placeholder {
+  color: black;
+  text-transform: capitalize;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+header .headerTitle .headerLogin form input::-moz-placeholder {
+  color: black;
+  text-transform: capitalize;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+header .headerTitle .headerLogin form input:-ms-input-placeholder {
+  color: black;
+  text-transform: capitalize;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+header .headerTitle .headerLogin form input::-ms-input-placeholder {
+  color: black;
+  text-transform: capitalize;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+header .headerTitle .headerLogin form input::placeholder {
+  color: black;
+  text-transform: capitalize;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+header .headerTitle .headerLogin form .pass {
+  position: relative;
+}
+
+header .headerTitle .headerLogin form .pass .fa {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: black;
+  font-size: 14px;
+}
+
+header .headerTitle .headerLogin form button {
+  padding: 10px 30px;
+  color: black;
+  background-color: transparent;
+  outline: 2px solid black;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+}
+
+header .headerTitle .headerLogin form button::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #01285f;
+  -webkit-transform: translateX(100px);
+  -ms-transform: translateX(100px);
+  transform: translateX(100px);
+  z-index: -11;
+  color: white;
+}
+
+header .headerTitle .headerLogin form button::before {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #01285f;
+  -webkit-transform: translateX(-100px);
+  -ms-transform: translateX(-100px);
+  transform: translateX(-100px);
+  z-index: -11;
+  color: white;
+}
+
+header .headerTitle .headerLogin form button:hover::after {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+  background-color: #01285f;
+  color: white;
+}
+
+header .headerTitle .headerLogin form button:hover::before {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+  background-color: #01285f;
+  color: white;
+}
+
+header .headerTitle .headerLogin .close {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  display: block;
+  border: 2px solid #01285f;
+  padding: 15px 20px;
+  color: black;
+  border-radius: 5px;
+  font-size: 18px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+header .headerTitle .headerLogin .close:hover {
+  background-color: black;
+  color: red;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+main {
+  width: 100%;
+}
+
+main .car {
+  text-align: center;
+  margin-top: 90px;
+}
+
+main .car h4 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: black;
+  margin-top: 30px;
+}
+
+main .car p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+}
+
+main .kent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.felix {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.felix .big {
+  position: relative;
+}
+
+.felix .big img {
+  width: 100%;
+  height: 1000px;
+}
+
+.felix .big .sef {
+  position: absolute;
+  top: 20px;
+  left: 40%;
+}
+
+.felix .big .teror {
+  position: absolute;
+  right: 0;
+  bottom: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: white;
+  width: 70%;
+  height: 250px;
+}
+
+.felix .big .teror img {
+  width: 150px;
+  height: 100px;
+  padding-left: 50px;
+}
+
+.felix .big .teror .rob {
+  margin-left: 50px;
+}
+
+.felix .big .teror .rob h4 {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 30px;
+  color: black;
+  text-align: left;
+}
+
+.felix .big .teror .rob h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 30px;
+  color: black;
+  text-align: left;
+}
+
+.felix .big .teror .rob h3 p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: black;
+  text-align: left;
+}
+
+.students {
+  width: 100%;
+  margin-bottom: 250px;
+}
+
+.students .box {
+  position: relative;
+  width: 190px;
+  height: 190px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 5px 0px black;
+  box-shadow: 0px 0px 5px 0px black;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.students .box p {
+  margin: 0;
+  position: absolute;
+  top: 2px;
+  right: 27px;
+  line-height: 25px;
+}
+
+.students .box span {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+}
+
+.students .kent button {
+  position: absolute;
+  left: 47%;
+  margin-top: 80px;
+}
+
+.events {
+  width: 100%;
+  margin: 0;
+}
+
+.events .nan {
+  text-align: center;
+  background: #F3E02B;
+  padding-bottom: 111px;
+  padding-top: 111px;
+}
+
+.events .nan .kent {
+  padding-top: 80px;
+}
+
+.work {
+  width: 100%;
+  margin-top: 120px;
+}
+
+.work .img {
+  margin-top: 100px;
+  position: relative;
+}
+
+.work .img img {
+  width: 100%;
+}
+
+.work .img .col {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  background-color: white;
+  width: 500px;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.work .img .col h2 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  color: black;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.work .img .col img {
+  width: 320px;
+  height: 170px;
+  margin-top: 58px;
+}
+
+.courses {
+  width: 100%;
+  margin-top: 120px;
+  background-color: #EBEEF3;
+  z-index: 0;
+}
+
+.courses h1.title {
+  padding-top: 50px;
+}
+
+.courses .box {
+  margin-top: 120px;
+}
+
+.courses .box img {
+  width: 400px;
+  height: 60px;
+}
+
+.courses img {
+  margin-top: 140px;
+  margin-bottom: auto;
+}
+
+.form {
+  width: 100%;
+  background-color: #0F1035;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.form h1.title {
+  margin: 0;
+  padding-top: 90px;
+  color: white;
+}
+
+.form p.text {
+  color: white;
+}
+
+.form .var {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.form .var input {
+  width: 350px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+  padding: 13px 0px;
+  padding-left: 22px;
+  border: none;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 3px;
+}
+
+.form .var input:focus {
+  outline: none;
+}
+
+.form .var input:hover {
+  cursor: pointer;
+}
+
+.form .var button {
+  padding: 15px 26px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  background: red;
+  color: white;
+  border-radius: 4px;
+  margin-left: 32px;
+  border: none;
+}
+
+.form .var button:hover {
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  background: #D3F1F3;
+  color: black;
+}
+
+.form .headerLogin {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #0F1035;
+  z-index: 11111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: none;
+}
+
+.form .headerLogin h3 {
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.form .headerLogin form {
+  text-align: center;
+}
+
+.form .headerLogin form input {
+  width: 400px;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 2px solid wheat;
+  background-color: transparent;
+  color: crimson;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.form .headerLogin form input:focus {
+  outline: none;
+}
+
+.form .headerLogin form input::-webkit-input-placeholder {
+  color: crimson;
+  text-transform: capitalize;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.form .headerLogin form input::-moz-placeholder {
+  color: crimson;
+  text-transform: capitalize;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.form .headerLogin form input:-ms-input-placeholder {
+  color: crimson;
+  text-transform: capitalize;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.form .headerLogin form input::-ms-input-placeholder {
+  color: crimson;
+  text-transform: capitalize;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.form .headerLogin form input::placeholder {
+  color: crimson;
+  text-transform: capitalize;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.form .headerLogin form .pass {
+  position: relative;
+}
+
+.form .headerLogin form .pass .fa {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: white;
+  font-size: 14px;
+}
+
+.form .headerLogin form button {
+  padding: 10px 40px;
+  color: crimson;
+  background-color: transparent;
+  outline: 2px solid white;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+}
+
+.form .headerLogin form button::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: black;
+  -webkit-transform: translateX(100px);
+  -ms-transform: translateX(100px);
+  transform: translateX(100px);
+  z-index: -11;
+  color: white;
+}
+
+.form .headerLogin form button::before {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  -webkit-transform: translateX(-100px);
+  -ms-transform: translateX(-100px);
+  transform: translateX(-100px);
+  z-index: -11;
+  color: white;
+}
+
+.form .headerLogin form button:hover::after {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+  background-color: black;
+  color: white;
+}
+
+.form .headerLogin form button:hover::before {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+  background-color: black;
+  color: white;
+}
+
+.form .headerLogin .close {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  display: block;
+  border: 2px solid white;
+  padding: 15px 20px;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.form .headerLogin .close:hover {
+  background-color: black;
+  color: red;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  border: none;
+}
+
+footer {
+  width: 100%;
+  margin-top: 90px;
+}
+
+footer img {
+  width: 200px;
+  margin: 15px 0px;
+}
+
+footer ul {
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+
+footer ul .uno {
+  margin-bottom: 30px;
+}
+
+footer ul li {
+  margin: 15px 0px;
+}
+
+footer ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: black;
+  text-align: left;
+}
+
+footer .ddd {
+  width: 100%;
+  border-top: 2px solid #000;
+}
+
+footer .car {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .car a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: black;
+  text-align: center;
+}
+
+footer .car p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: black;
+  text-align: center;
+  margin: 0px 10px;
+}
+
+footer .kal {
+  margin: 25px 0px;
+  text-align: right;
+}
+
+footer .kal svg {
+  width: 20px;
+  height: 20px;
+  margin: 0px 5px;
+}
+
+footer .kal svg:hover {
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+body {
+  font-family: "Lato", "san-serif";
+}
+
+.activeBars {
+  display: none;
+}
+
+.activeMenuBars {
+  display: block;
+}
+
+.errorMsg {
+  color: #ff0000;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 10px;
+  display: none;
+}
+
+h1.title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-top: 90px;
+  text-align: center;
+  color: black;
+}
+
+p.text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 50px;
+  text-align: center;
+  color: black;
+}
+
+.kent button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 14px 24px;
+  background: #190083;
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+
+.kent button:hover {
+  background-color: aqua;
+  color: black;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.activeCourses {
+  display: none;
+}
+
+li.uno {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  color: black;
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  header nav .mul ul {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  header nav .nan {
+    display: none;
+  }
+
+  header nav .img {
+    display: none;
+  }
+
+  header .center ul {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  header .center ul li {
+    width: 100%;
+    margin: 0;
+    padding: 8px 0px;
+  }
+
+  header .bootom .book {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  header .bootom .book h3 {
+    text-align: center;
+  }
+
+  header .bootom .book a {
+    margin-top: 10px;
+  }
+
+  header .headerTitle .headerLogin h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .felix .big {
+    width: 100%;
+    height: 600px;
+  }
+
+  .felix .big .sef {
+    text-align: center;
+    left: 20%;
+  }
+
+  .felix .big .teror {
+    top: 300px;
+    width: 80%;
+    height: 120px;
+  }
+
+  .felix .big .teror img {
+    width: 150px;
+    height: 70px;
+  }
+
+  .felix .big .teror .rob {
+    margin-left: 20px;
+  }
+
+  .felix .big .teror .rob h4 {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+  }
+
+  .felix .big .teror .rob h3 {
+    display: none;
+  }
+
+  .work .img img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .work .img .col {
+    top: 180px;
+    left: 15px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .work .img .col h2 {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .work .img .col img {
+    margin-top: 25px;
+    width: 100px;
+    height: 70px;
+  }
+
+  .courses .box {
+    margin-top: 30px;
+    margin: auto;
+  }
+
+  .courses .box img {
+    width: 200px;
+    height: 50px;
+  }
+
+  .courses img {
+    margin-top: 20px;
+    width: 300px;
+  }
+
+  .form .headerLogin h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  footer img {
+    width: 70%;
+    margin: auto;
+  }
+
+  .activeBars {
+    display: block;
+  }
+
+  .activeMenuBars {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  header .headerTitle h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  header .headerTitle h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  header .headerTitle .var {
+    padding-top: 250px;
+  }
+
+  header .headerTitle .var input {
+    text-align: center;
+    padding-left: 0;
+    width: 225px;
+  }
+
+  header .headerTitle .var button {
+    font-size: 14px;
+    padding: 16px 15px;
+  }
+
+  header .headerTitle .headerLogin h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  main .car {
+    margin-top: 50px;
+  }
+
+  .students {
+    display: none;
+  }
+
+  .courses p.text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .form h1.title {
+    margin-top: 40px;
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .form p.text {
+    font-size: 17px;
+  }
+
+  .form .var {
+    padding-top: 30px;
+  }
+
+  .form .var input {
+    text-align: center;
+    padding-left: 0;
+    width: 225px;
+  }
+
+  .form .var button {
+    font-size: 14px;
+    padding: 16px 15px;
+  }
+
+  .form .headerLogin h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .form .headerLogin form input {
+    width: 300px;
+  }
+
+  footer img {
+    width: 100%;
+  }
+
+  footer ul {
+    margin: 20px 0px;
+    text-align: center;
+  }
+
+  footer ul .uno {
+    margin: 0;
+    text-align: center;
+  }
+
+  footer .car {
+    display: none;
+  }
+
+  footer .kal {
+    text-align: center;
+  }
+
+  footer .kal svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  h1.title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 40px;
+  }
+
+  p.text {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 25px;
+  }
+}

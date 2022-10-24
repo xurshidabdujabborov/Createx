@@ -1,0 +1,219 @@
+.form{
+    width: 100%;
+    background-color: #0F1035;
+    text-align: center;
+    padding-bottom: 100px;
+    h1.title{
+        margin: 0;
+        padding-top: 90px;
+        color: white;
+        .sm-block({
+          margin-top: 40px;
+          font-size: 25px;
+          line-height: 25px;
+        })
+    }
+    p.text{
+        color: white;
+        .sm-block({
+          font-size: 17px;
+        })
+    }
+    .var{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+      .sm-block({
+         padding-top: 30px;
+        });
+      input{
+          width: 350px;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 20px;
+          color: black;
+          padding: 13px 0px;
+          padding-left: 22px;
+          border: none;
+          background: #FFFFFF;
+          border: 2px solid #FFFFFF;
+          border-radius: 3px;   
+          &:focus{
+              outline: none;
+          }
+          &:hover{
+              cursor: pointer;
+          }
+          .sm-block({
+          text-align: center;
+          padding-left: 0;
+          width: 225px; 
+             });
+      }
+      button{
+          padding: 15px 26px;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 20px;
+          color: white;
+          text-align: center;  
+          background: red;
+          color: white;
+          border-radius: 4px;
+          margin-left: 32px;   
+          border: none; 
+          &:hover{
+              cursor: pointer;
+              transition: 1s;
+              background: #D3F1F3;
+              color: black
+          }; 
+          .sm-block({
+              font-size: 14px;
+              padding: 16px 15px;
+          })
+      }
+  } 
+    .headerLogin {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #0F1035;
+        z-index: 11111;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        h3 {
+          font-size: 45px;
+          font-weight: 700;
+          color: white;
+          letter-spacing: 2px;
+          margin-bottom: 30px;
+          .md-block({
+            font-size: 30px;
+            font-weight: 500;
+            margin-bottom: 20px;
+          });
+          .sm-block({
+            font-size: 30px;
+            font-weight: 500;
+            margin-bottom: 20px;
+          });
+        }
+        form {
+          text-align: center;
+          input {
+            width: 400px;
+            margin: 20px 0px;
+            padding: 10px 20px;
+            border-radius: 3px;
+            border: 2px solid wheat;
+            background-color: transparent;
+            color: crimson;
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            .sm-block({
+            width: 300px;
+            });
+            &:focus {
+              outline: none;
+            }
+            &::placeholder {
+              color: crimson;
+              text-transform: capitalize;
+              font-size: 15px;
+              letter-spacing: 2px;
+            }
+          }
+          .pass {
+            position: relative;
+            .fa {
+              position: absolute;
+              top: 50%;
+              right: 10px;
+              transform: translateY(-50%);
+              color: white;
+              font-size: 14px;
+            }
+          }
+          button {
+            padding: 10px 40px;
+            color: crimson;
+            background-color: transparent;
+            outline: 2px solid white;
+            border: none;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            border-radius: 2px;
+            overflow: hidden;
+            position: relative;
+            &::after {
+              content: "";
+              display: block;
+              width: 50%;
+              height: 100%;
+              position: absolute;
+              top: 0px;
+              right: 0px;
+              background-color: black;
+              transform: translateX(100px);
+              z-index: -11;
+              color: white;
+            }
+            &::before {
+              content: "";
+              display: block;
+              width: 50%;
+              height: 100%;
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              background-color: black;
+              transform: translateX(-100px);
+              z-index: -11;
+              color: white;
+            }
+            &:hover::after {
+              transition: 1s;
+              cursor: pointer;
+              transform: translateX(0px);
+              background-color: black;
+              color: white;
+            }
+            &:hover::before {
+              transition: 1s;
+              cursor: pointer;
+              transform: translateX(0px);
+              background-color: black;
+              color: white;
+            }
+          }
+        }
+        .close {
+          position: absolute;
+          top: 10px;
+          right: 30px;
+          display: block;
+          border: 2px solid white;
+          padding: 15px 20px;
+          color: white;
+          border-radius: 5px;
+          font-size: 18px;
+          transition: 0.3s;
+          cursor: pointer;
+          &:hover {
+            background-color:black;
+            color: red;
+            transform: rotate(180deg);
+            border: none;
+          }
+        }
+  }
+}
